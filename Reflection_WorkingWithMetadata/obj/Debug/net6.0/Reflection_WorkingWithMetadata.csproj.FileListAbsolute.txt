@@ -1,0 +1,15 @@
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\obj\Debug\net6.0\Reflection_WorkingWithMetadata.csproj.AssemblyReference.cache
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\obj\Debug\net6.0\Reflection_WorkingWithMetadata.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\obj\Debug\net6.0\Reflection_WorkingWithMetadata.AssemblyInfoInputs.cache
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\obj\Debug\net6.0\Reflection_WorkingWithMetadata.AssemblyInfo.cs
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\obj\Debug\net6.0\Reflection_WorkingWithMetadata.csproj.CoreCompileInputs.cache
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\bin\Debug\net6.0\Reflection_WorkingWithMetadata.exe
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\bin\Debug\net6.0\Reflection_WorkingWithMetadata.deps.json
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\bin\Debug\net6.0\Reflection_WorkingWithMetadata.runtimeconfig.json
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\bin\Debug\net6.0\Reflection_WorkingWithMetadata.dll
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\bin\Debug\net6.0\Reflection_WorkingWithMetadata.pdb
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\obj\Debug\net6.0\Reflection_WorkingWithMetadata.dll
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\obj\Debug\net6.0\refint\Reflection_WorkingWithMetadata.dll
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\obj\Debug\net6.0\Reflection_WorkingWithMetadata.pdb
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\obj\Debug\net6.0\Reflection_WorkingWithMetadata.genruntimeconfig.cache
+D:\WORK\Reflection_WorkingWithMetadata\Reflection_WorkingWithMetadata\obj\Debug\net6.0\ref\Reflection_WorkingWithMetadata.dll

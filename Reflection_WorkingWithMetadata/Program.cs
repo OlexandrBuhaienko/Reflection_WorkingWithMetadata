@@ -59,11 +59,45 @@ namespace Reflection_WorkingWithMetadata
             ConstructorInfo constructorInfo = type.GetConstructor(new Type[] { });
             object student = constructorInfo.Invoke(new object[] { });
         }
+        // Цей метод використовуючи рефлексію, звертається до всіх властивостей типу Student
+        // з кожної властивості в типі, він пробує отримати кастомний атрибут, який 
+        // розробник міг додати, тому метод GetCustommAttributes повертає перелік властивостей  
+        // до яких застосували кастомні атрибути, у вигляді масиву, 
+        // тип атрибутів в цьому масиві MySimpleAttribute. Потім якщо довжина цього масиву
+        // більша за 0, то виводить назву властивості, до якої застосували MySimpleAttribute 
+        public static void WorkWithAttributes()
+        {
+            Student student = new Student();
+            Type type = student.GetType();
+            var properties = type.GetProperties();
+
+            foreach (PropertyInfo propertyInfo in properties)
+            {
+                // Беремо перший елемент масиву, приводимо його до типу атрибуту, яке ми шукали
+                // Та виводимо його значення разом з назвою властивості в консоль
+                var attributes = propertyInfo.GetCustomAttributes(typeof(MySimpleAttribute), 
+                false);
+                // Виводимо ми не тільки назву властивості,
+                // до якої ми додали атрибут MySimpleAttribute,
+                // а також і значення, яке ми вказали,
+                // коли додавали цей атрибут до властивості,
+                // в нашому випадку - це Number.
+                // І значення його ми вказали - 5
+                if(attributes.Length > 0)
+                {
+                    var attribute = (MySimpleAttribute)attributes[0];
+
+                    Console.WriteLine($"Property name : {propertyInfo.Name}," +
+                        $" attribute value : {attribute.Number}");
+                }
+            }
+        }
         public static void Main(string [] args)
         {
             string stringType = "Reflection_WorkingWithMetadata.Student";
             GetMembersInfo(stringType);
             ShowValuesOfTypeFields();
+            WorkWithAttributes();
         }
     }
 }
